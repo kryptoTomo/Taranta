@@ -1,0 +1,813 @@
+{
+  "id": "63aeb44e59871c0019dbf092",
+  "name": "Pixy2 Camera",
+  "version": "1.3.10",
+  "user": "user1",
+  "insertTime": "2022-12-30T09:50:06.581Z",
+  "updateTime": "2022-12-30T12:22:24.532Z",
+  "group": null,
+  "groupWriteAccess": false,
+  "lastUpdatedBy": "user1",
+  "widget": [
+    {
+      "id": "2",
+      "x": 3,
+      "y": 6,
+      "canvas": "0",
+      "width": 29,
+      "height": 28,
+      "type": "BOX",
+      "inputs": {
+        "title": "",
+        "bigWidget": 4,
+        "smallWidget": 1,
+        "textColor": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderColor": "",
+        "borderWidth": 0,
+        "borderStyle": "solid",
+        "textSize": 1,
+        "fontFamily": "Helvetica",
+        "layout": "vertical",
+        "alignment": "Center",
+        "padding": 0,
+        "customCss": ""
+      },
+      "order": 0,
+      "innerWidgets": [
+        {
+          "id": "20",
+          "x": 3.4,
+          "y": 8.64,
+          "canvas": "0",
+          "width": 28.2,
+          "height": 25.2,
+          "type": "BOX",
+          "inputs": {
+            "title": "",
+            "bigWidget": 4,
+            "smallWidget": 1,
+            "textColor": "#000000",
+            "backgroundColor": "#ffffff",
+            "borderColor": "",
+            "borderWidth": 0,
+            "borderStyle": "solid",
+            "textSize": 1,
+            "fontFamily": "Helvetica",
+            "layout": "vertical",
+            "alignment": "Center",
+            "padding": 0,
+            "customCss": ""
+          },
+          "valid": true,
+          "innerWidgets": [
+            {
+              "id": "3",
+              "x": 3.8,
+              "y": 11.056000000000001,
+              "canvas": "0",
+              "width": 27.4,
+              "height": 2.25,
+              "type": "LABEL",
+              "inputs": {
+                "text": "Pixy2 Controller",
+                "textColor": "#000000",
+                "backgroundColor": "#ffffff",
+                "size": 2,
+                "borderWidth": 0,
+                "borderColor": "#000000",
+                "font": "Helvetica",
+                "linkTo": "",
+                "customCss": ""
+              },
+              "valid": true,
+              "order": 1
+            },
+            {
+              "id": "28",
+              "x": 3.8,
+              "y": 13.306000000000001,
+              "canvas": "0",
+              "width": 27.4,
+              "height": 2.25,
+              "type": "DEVICE_STATUS",
+              "inputs": {
+                "device": "lima/limaccd/01",
+                "state": {
+                  "device": null,
+                  "attribute": null
+                },
+                "showDeviceName": true,
+                "showStateString": true,
+                "showStateLED": true,
+                "LEDSize": 1,
+                "textColor": "#000000",
+                "backgroundColor": "#ffffff",
+                "textSize": 1,
+                "widgetCss": ""
+              },
+              "valid": true,
+              "order": 9
+            },
+            {
+              "id": "29",
+              "x": 3.8,
+              "y": 15.556000000000001,
+              "canvas": "0",
+              "width": 27.4,
+              "height": 2.25,
+              "type": "DEVICE_STATUS",
+              "inputs": {
+                "device": "lima/limaccd/pixy2",
+                "state": {
+                  "device": null,
+                  "attribute": null
+                },
+                "showDeviceName": true,
+                "showStateString": true,
+                "showStateLED": true,
+                "LEDSize": 1,
+                "textColor": "#000000",
+                "backgroundColor": "#ffffff",
+                "textSize": 1,
+                "widgetCss": ""
+              },
+              "valid": true,
+              "order": 11
+            },
+            {
+              "id": "30",
+              "x": 3.8,
+              "y": 17.806,
+              "canvas": "0",
+              "width": 27.4,
+              "height": 2.25,
+              "type": "DEVICE_STATUS",
+              "inputs": {
+                "device": "lima/liveviewer/01",
+                "state": {
+                  "device": null,
+                  "attribute": null
+                },
+                "showDeviceName": true,
+                "showStateString": true,
+                "showStateLED": true,
+                "LEDSize": 1,
+                "textColor": "#000000",
+                "backgroundColor": "#ffffff",
+                "textSize": 1,
+                "widgetCss": ""
+              },
+              "valid": true,
+              "order": 18
+            },
+            {
+              "id": "21",
+              "x": 3.8,
+              "y": 20.056,
+              "canvas": "0",
+              "width": 27.4,
+              "height": 2.25,
+              "type": "ATTRIBUTE_DISPLAY",
+              "inputs": {
+                "attribute": {
+                  "device": "lima/limaccd/01",
+                  "attribute": "camera_type",
+                  "label": "camera_type"
+                },
+                "precision": 2,
+                "showDevice": false,
+                "showAttribute": "Label",
+                "scientificNotation": false,
+                "showEnumLabels": false,
+                "showAttrQuality": false,
+                "textColor": "#000000",
+                "backgroundColor": "#ffffff",
+                "size": 1,
+                "font": "Helvetica",
+                "widgetCss": ""
+              },
+              "valid": true,
+              "order": 19
+            },
+            {
+              "id": "22",
+              "x": 3.8,
+              "y": 22.306,
+              "canvas": "0",
+              "width": 27.4,
+              "height": 2.25,
+              "type": "ATTRIBUTE_DISPLAY",
+              "inputs": {
+                "attribute": {
+                  "device": "lima/limaccd/01",
+                  "attribute": "camera_model",
+                  "label": "camera_model"
+                },
+                "precision": 2,
+                "showDevice": false,
+                "showAttribute": "Label",
+                "scientificNotation": false,
+                "showEnumLabels": false,
+                "showAttrQuality": false,
+                "textColor": "#000000",
+                "backgroundColor": "#ffffff",
+                "size": 1,
+                "font": "Helvetica",
+                "widgetCss": ""
+              },
+              "valid": true,
+              "order": 20
+            },
+            {
+              "id": "23",
+              "x": 3.8,
+              "y": 24.556,
+              "canvas": "0",
+              "width": 27.4,
+              "height": 2.25,
+              "type": "ATTRIBUTE_DISPLAY",
+              "inputs": {
+                "attribute": {
+                  "device": "lima/limaccd/01",
+                  "attribute": "image_type",
+                  "label": "image_type"
+                },
+                "precision": 2,
+                "showDevice": false,
+                "showAttribute": "Label",
+                "scientificNotation": false,
+                "showEnumLabels": false,
+                "showAttrQuality": false,
+                "textColor": "#000000",
+                "backgroundColor": "#ffffff",
+                "size": 1,
+                "font": "Helvetica",
+                "widgetCss": ""
+              },
+              "valid": true,
+              "order": 21
+            },
+            {
+              "id": "25",
+              "x": 3.8,
+              "y": 26.806,
+              "canvas": "0",
+              "width": 27.4,
+              "height": 2.25,
+              "type": "ATTRIBUTE_DISPLAY",
+              "inputs": {
+                "attribute": {
+                  "device": "lima/limaccd/01",
+                  "attribute": "image_width",
+                  "label": "image_width"
+                },
+                "precision": 2,
+                "showDevice": false,
+                "showAttribute": "Label",
+                "scientificNotation": false,
+                "showEnumLabels": false,
+                "showAttrQuality": false,
+                "textColor": "#000000",
+                "backgroundColor": "#ffffff",
+                "size": 1,
+                "font": "Helvetica",
+                "widgetCss": ""
+              },
+              "valid": true,
+              "order": 25
+            },
+            {
+              "id": "24",
+              "x": 3.8,
+              "y": 29.056,
+              "canvas": "0",
+              "width": 27.4,
+              "height": 2.25,
+              "type": "ATTRIBUTE_DISPLAY",
+              "inputs": {
+                "attribute": {
+                  "device": "lima/limaccd/01",
+                  "attribute": "image_height",
+                  "label": "image_height"
+                },
+                "precision": 2,
+                "showDevice": false,
+                "showAttribute": "Label",
+                "scientificNotation": false,
+                "showEnumLabels": false,
+                "showAttrQuality": false,
+                "textColor": "#000000",
+                "backgroundColor": "#ffffff",
+                "size": 1,
+                "font": "Helvetica",
+                "widgetCss": ""
+              },
+              "valid": true,
+              "order": 26
+            },
+            {
+              "id": "27",
+              "x": 3.8,
+              "y": 31.306,
+              "canvas": "0",
+              "width": 27.4,
+              "height": 2.25,
+              "type": "ATTRIBUTE_DISPLAY",
+              "inputs": {
+                "attribute": {
+                  "device": "lima/limaccd/01",
+                  "attribute": "acq_status",
+                  "label": "acq_status"
+                },
+                "precision": 2,
+                "showDevice": false,
+                "showAttribute": "Label",
+                "scientificNotation": false,
+                "showEnumLabels": false,
+                "showAttrQuality": false,
+                "textColor": "#000000",
+                "backgroundColor": "#ffffff",
+                "size": 1,
+                "font": "Helvetica",
+                "widgetCss": ""
+              },
+              "valid": true,
+              "order": 27
+            }
+          ],
+          "order": 3,
+          "hover": []
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "x": 38.9,
+      "y": 1,
+      "canvas": "0",
+      "width": 24.2,
+      "height": 14.4,
+      "type": "BOX",
+      "inputs": {
+        "title": "Camera commands",
+        "bigWidget": 4,
+        "smallWidget": 1,
+        "textColor": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderColor": "",
+        "borderWidth": 0,
+        "borderStyle": "solid",
+        "textSize": 1,
+        "fontFamily": "Helvetica",
+        "layout": "vertical",
+        "alignment": "Center",
+        "padding": 0,
+        "customCss": ""
+      },
+      "innerWidgets": [
+        {
+          "id": "5",
+          "x": 39.3,
+          "y": 3.552,
+          "canvas": "0",
+          "width": 23.4,
+          "height": 1.95,
+          "type": "COMMAND_ARRAY",
+          "inputs": {
+            "title": "",
+            "command": {
+              "device": "lima/liveviewer/01",
+              "command": "Init",
+              "acceptedType": "DevVoid",
+              "intypedesc": "Uninitialised",
+              "outtypedesc": "Uninitialised",
+              "outtype": "DevVoid",
+              "tag": "0"
+            },
+            "commandArgs": [],
+            "showDevice": true,
+            "showCommand": true,
+            "requireConfirmation": true,
+            "displayOutput": true,
+            "placeholder": "intype",
+            "OutputMaxSize": 20,
+            "timeDisplayOutput": 3000,
+            "textColor": "#000000",
+            "backgroundColor": "#ffffff",
+            "size": 1,
+            "font": "Helvetica",
+            "btnCss": "",
+            "widgetCss": ""
+          },
+          "valid": true,
+          "order": 4
+        },
+        {
+          "id": "6",
+          "x": 39.3,
+          "y": 5.502,
+          "canvas": "0",
+          "width": 23.4,
+          "height": 1.95,
+          "type": "COMMAND_ARRAY",
+          "inputs": {
+            "command": {
+              "device": "lima/liveviewer/01",
+              "command": "Reset",
+              "acceptedType": "DevVoid",
+              "intypedesc": "Uninitialised",
+              "outtypedesc": "Uninitialised",
+              "outtype": "DevVoid",
+              "tag": "0"
+            },
+            "commandArgs": [],
+            "showDevice": true,
+            "showCommand": true,
+            "requireConfirmation": true,
+            "displayOutput": true,
+            "placeholder": "intype",
+            "OutputMaxSize": 20,
+            "timeDisplayOutput": 3000,
+            "textColor": "#000000",
+            "backgroundColor": "#ffffff",
+            "size": 1,
+            "font": "Helvetica",
+            "btnCss": "",
+            "widgetCss": ""
+          },
+          "valid": true,
+          "order": 5
+        },
+        {
+          "id": "7",
+          "x": 39.3,
+          "y": 7.452,
+          "canvas": "0",
+          "width": 23.4,
+          "height": 1.95,
+          "type": "COMMAND_ARRAY",
+          "inputs": {
+            "buttonText": "",
+            "command": {
+              "device": "lima/liveviewer/01",
+              "command": "Start",
+              "acceptedType": "DevVoid",
+              "intypedesc": "Uninitialised",
+              "outtypedesc": "Uninitialised",
+              "outtype": "DevVoid",
+              "tag": "0"
+            },
+            "commandArgs": [],
+            "showDevice": true,
+            "showCommand": true,
+            "requireConfirmation": true,
+            "displayOutput": true,
+            "placeholder": "intype",
+            "OutputMaxSize": 20,
+            "timeDisplayOutput": 3000,
+            "textColor": "#000000",
+            "backgroundColor": "#ffffff",
+            "size": 1,
+            "font": "Helvetica",
+            "btnCss": "",
+            "widgetCss": ""
+          },
+          "valid": true,
+          "order": 6
+        },
+        {
+          "id": "8",
+          "x": 39.3,
+          "y": 9.402,
+          "canvas": "0",
+          "width": 23.4,
+          "height": 1.95,
+          "type": "COMMAND_ARRAY",
+          "inputs": {
+            "command": {
+              "device": "lima/liveviewer/01",
+              "command": "Status",
+              "acceptedType": "DevVoid",
+              "intypedesc": "Uninitialised",
+              "outtypedesc": "Device status",
+              "outtype": "DevString",
+              "tag": "0"
+            },
+            "commandArgs": [],
+            "showDevice": true,
+            "showCommand": true,
+            "requireConfirmation": true,
+            "displayOutput": true,
+            "placeholder": "intype",
+            "OutputMaxSize": 20,
+            "timeDisplayOutput": 3000,
+            "textColor": "#000000",
+            "backgroundColor": "#ffffff",
+            "size": 1,
+            "font": "Helvetica",
+            "btnCss": "",
+            "widgetCss": ""
+          },
+          "valid": true,
+          "order": 8
+        },
+        {
+          "id": "9",
+          "x": 39.3,
+          "y": 11.351999999999999,
+          "canvas": "0",
+          "width": 23.4,
+          "height": 1.95,
+          "type": "COMMAND_ARRAY",
+          "inputs": {
+            "command": {
+              "device": "lima/liveviewer/01",
+              "command": "Stop",
+              "acceptedType": "DevVoid",
+              "intypedesc": "Uninitialised",
+              "outtypedesc": "Uninitialised",
+              "outtype": "DevVoid",
+              "tag": "0"
+            },
+            "commandArgs": [],
+            "showDevice": true,
+            "showCommand": true,
+            "requireConfirmation": true,
+            "displayOutput": true,
+            "placeholder": "intype",
+            "OutputMaxSize": 20,
+            "timeDisplayOutput": 3000,
+            "textColor": "#000000",
+            "backgroundColor": "#ffffff",
+            "size": 1,
+            "font": "Helvetica",
+            "btnCss": "",
+            "widgetCss": ""
+          },
+          "valid": true,
+          "order": 9
+        },
+        {
+          "id": "10",
+          "x": 39.3,
+          "y": 13.301999999999998,
+          "canvas": "0",
+          "width": 23.4,
+          "height": 1.95,
+          "type": "COMMAND_ARRAY",
+          "inputs": {
+            "command": {
+              "device": "lima/liveviewer/01",
+              "command": "State",
+              "acceptedType": "DevVoid",
+              "intypedesc": "Uninitialised",
+              "outtypedesc": "Device state",
+              "outtype": "DevState",
+              "tag": "0"
+            },
+            "commandArgs": [],
+            "showDevice": true,
+            "showCommand": true,
+            "requireConfirmation": true,
+            "displayOutput": true,
+            "placeholder": "intype",
+            "OutputMaxSize": 20,
+            "timeDisplayOutput": 3000,
+            "textColor": "#000000",
+            "backgroundColor": "#ffffff",
+            "size": 1,
+            "font": "Helvetica",
+            "btnCss": "",
+            "widgetCss": ""
+          },
+          "valid": true,
+          "order": 10
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "13",
+      "x": 70,
+      "y": 0.6000000000000014,
+      "canvas": "0",
+      "width": 31.2,
+      "height": 12.8,
+      "type": "BOX",
+      "inputs": {
+        "title": "Camera attribiutes",
+        "bigWidget": 4,
+        "smallWidget": 1,
+        "textColor": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderColor": "",
+        "borderWidth": 0,
+        "borderStyle": "solid",
+        "textSize": 1,
+        "fontFamily": "Helvetica",
+        "layout": "vertical",
+        "alignment": "Center",
+        "padding": 0,
+        "customCss": ""
+      },
+      "innerWidgets": [
+        {
+          "id": "15",
+          "x": 70.4,
+          "y": 2.8640000000000017,
+          "canvas": "0",
+          "width": 30.4,
+          "height": 2.1,
+          "type": "ATTRIBUTE_WRITER",
+          "inputs": {
+            "title": "",
+            "attribute": {
+              "device": "lima/liveviewer/01",
+              "attribute": "frames",
+              "label": "Frame number"
+            },
+            "showDevice": true,
+            "showAttribute": "Label",
+            "textColor": "#000000",
+            "backgroundColor": "#ffffff",
+            "size": 1,
+            "font": "Helvetica",
+            "widgetCss": ""
+          },
+          "valid": true,
+          "order": 17
+        },
+        {
+          "id": "31",
+          "x": 70.4,
+          "y": 7.064000000000002,
+          "canvas": "0",
+          "width": 30.4,
+          "height": 2.1,
+          "type": "ATTRIBUTE_WRITER",
+          "inputs": {
+            "title": "",
+            "attribute": {
+              "device": "lima/liveviewer/01",
+              "attribute": "exposure",
+              "label": "Exposure time in second"
+            },
+            "showDevice": true,
+            "showAttribute": "Label",
+            "textColor": "#000000",
+            "backgroundColor": "#ffffff",
+            "size": 1,
+            "font": "Helvetica",
+            "widgetCss": ""
+          },
+          "valid": true,
+          "order": 28
+        },
+        {
+          "id": "26",
+          "x": 70.4,
+          "y": 4.964000000000002,
+          "canvas": "0",
+          "width": 30.4,
+          "height": 2.1,
+          "type": "ATTRIBUTE_WRITER",
+          "inputs": {
+            "title": "Program",
+            "attribute": {
+              "device": "lima/limaccd/01",
+              "attribute": "latency_time",
+              "label": "latency_time"
+            },
+            "showDevice": false,
+            "showAttribute": "None",
+            "textColor": "#000000",
+            "backgroundColor": "#ffffff",
+            "size": 1,
+            "font": "Helvetica",
+            "widgetCss": ""
+          },
+          "valid": true,
+          "order": 29
+        },
+        {
+          "id": "16",
+          "x": 70.4,
+          "y": 9.164000000000001,
+          "canvas": "0",
+          "width": 30.4,
+          "height": 2.1,
+          "type": "ATTRIBUTE_DISPLAY",
+          "inputs": {
+            "attribute": {
+              "device": "lima/liveviewer/01",
+              "attribute": "imagecounter",
+              "label": "Image Counter"
+            },
+            "precision": 2,
+            "showDevice": false,
+            "showAttribute": "Label",
+            "scientificNotation": false,
+            "showEnumLabels": false,
+            "showAttrQuality": false,
+            "textColor": "#000000",
+            "backgroundColor": "#ffffff",
+            "size": 1,
+            "font": "Helvetica",
+            "widgetCss": ""
+          },
+          "valid": true,
+          "order": 30
+        }
+      ],
+      "order": 4
+    },
+    {
+      "id": "17",
+      "x": 70.4,
+      "y": 15.08,
+      "canvas": "0",
+      "width": 31,
+      "height": 29.92,
+      "type": "BOX",
+      "inputs": {
+        "title": "",
+        "bigWidget": 4,
+        "smallWidget": 1,
+        "textColor": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderColor": "",
+        "borderWidth": 0,
+        "borderStyle": "solid",
+        "textSize": 1,
+        "fontFamily": "Helvetica",
+        "layout": "vertical",
+        "alignment": "Center",
+        "padding": 0,
+        "customCss": ""
+      },
+      "order": 3,
+      "innerWidgets": [
+        {
+          "id": "19",
+          "x": 70.80000000000001,
+          "y": 17.8736,
+          "canvas": "0",
+          "width": 30.2,
+          "height": 27.1,
+          "type": "IMAGE_TABLE",
+          "inputs": {
+            "attribute": {
+              "device": "lima/liveviewer/01",
+              "attribute": "image",
+              "label": "Last Image"
+            },
+            "rowLimit": 206,
+            "columnLimit": 316,
+            "showDevice": false,
+            "showAttribute": false,
+            "showIndex": false,
+            "showLabel": false,
+            "showWarning": true,
+            "fontSize": 16
+          },
+          "valid": true,
+          "order": 21
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "x": 34.9,
+      "y": 16.8,
+      "canvas": "0",
+      "width": 34.2,
+      "height": 24.4,
+      "type": "ATTRIBUTEHEATMAP",
+      "inputs": {
+        "attribute": {
+          "device": "lima/liveviewer/01",
+          "attribute": "image",
+          "label": "Last Image"
+        },
+        "selectAxisAttribute": false,
+        "xAxis": {
+          "device": "lima/liveviewer/01",
+          "attribute": null,
+          "label": null
+        },
+        "yAxis": {
+          "device": null,
+          "attribute": null
+        },
+        "showTitle": true,
+        "showAttribute": "Label",
+        "fixedScale": true,
+        "maxValue": 255,
+        "minValue": 1
+      },
+      "order": 2
+    }
+  ],
+  "variables": []
+}
